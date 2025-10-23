@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    font-family: "Matter";
+    font-weight: 300;
+}
+header{
+    min-height: 100vh;
+}
+
+.logo{
+    display: block;
+    padding-top: 20px;
+    padding-top: 20px;
+    padding-top: 2rem;
+}
+.logo img{
+    width: 50%;
+}
+
+.control-btn {
+    background: transparent;
+    display: block;
+    border: none;
+    padding: 20px 20px;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    background-size: cover!important;
+    background-repeat: no-repeat
+}
+
+.control-btn:hover {
+    cursor: pointer;
+}
+
+.control-btn img {
+    width: 80%;
+    max-width: 400px;
+    display: block;
+}
+
+.cold-5 .cold-md-2{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.yellow-bg {
+    background: #ffcc00;
+    position: relative;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img-fluid {
+    max-width: 100%;
+}
+.w-100 {
+    width: 100% !important;
+}
