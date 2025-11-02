@@ -19,6 +19,9 @@ header{
 }
 .logo img{
     width: 50%;
+    display: flex;
+    justify-items: right;
+    
 }
 
 .control-btn {
@@ -72,4 +75,18 @@ header{
 }
 .w-100 {
     width: 100% !important;
+}
+
+.ilu {
+    width: calc(100% + 4rem);
+}
+
+.purple-bk {
+    background: #660099;
+}
+
+.col-12 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
